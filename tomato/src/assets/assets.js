@@ -85,7 +85,7 @@ export const assets = {
 export const menu_list = [
     {
         menu_name: "Salad",
-        menu_image: menu_1
+        c: menu_1
     },
     {
         menu_name: "Rolls",
