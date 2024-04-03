@@ -21,6 +21,7 @@
 .cart hr{
     height: 1px;
     background-color: #e2e2e2;
+    border: none;
 }
 
 .cart-items-item .cross{
@@ -30,7 +31,7 @@
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    gap : max(2vw,20px);
+    gap : max(12vw,20px);
     
 }
 .cart-total{
@@ -38,7 +39,6 @@
     display:  flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
 }
 .cart-total-details{
     display: flex;
@@ -57,6 +57,7 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
 .cart-promo-code{
     flex: 1; 
 }
