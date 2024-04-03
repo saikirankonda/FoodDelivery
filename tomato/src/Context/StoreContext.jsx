@@ -23,6 +23,7 @@ const StoreContextProvoder =(props) =>{
   }
 
 
+  console.log("context" , food_list)
 
     const contextValue = {
          food_list ,
