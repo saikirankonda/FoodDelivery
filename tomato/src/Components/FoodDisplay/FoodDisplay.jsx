@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './FoodDisplay.css';
 import{StoreContext} from "../../Context/StoreContext";
 import FoodItem from '../FoodItem/FoodItem';
-import { useSelector,useDispatch } from 'react-redux';
+// import { useSelector,useDispatch } from 'react-redux';
 import { assets } from '../../assets/assets';
 const FoodDisplay = ({category,foodItemData}) => {
 

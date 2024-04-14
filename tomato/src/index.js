@@ -5,17 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter } from "react-router-dom";
 import StoreContextProvoder from './Context/StoreContext';
-import store from "./Redux/store"
-import { Provider } from 'react-redux';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
         <BrowserRouter>
             <StoreContextProvoder>
-                <Provider store={store}>
                 <App />
-                </Provider>
             </StoreContextProvoder>
         </BrowserRouter>
 );
